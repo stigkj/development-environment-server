@@ -1,0 +1,18 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.2.2)
+    java (1.1.0)
+      apt (>= 0)
+
+GIT
+  remote: https://github.com/ctrabold/chef-sonar
+  ref: master
+  sha: 45ac5b32f6fef52eb0a7a7f9e07f329e4f91b8dc
+  specs:
+    sonar (0.0.2)
+      java (>= 0.0.0)
+
+DEPENDENCIES
+  sonar (>= 0)
+
